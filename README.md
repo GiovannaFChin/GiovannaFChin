@@ -36,7 +36,7 @@ API REST em **Java 21 e Spring Boot** que recebe um texto, gera o QR Code e guar
 **O que pratiquei:** criação de APIs REST, integração com AWS SDK, permissões mínimas no IAM e containerização.  
 `Java` `Spring Boot` `AWS S3` `Docker` `ZXing`
 
-### 🌿 [Hopen CBD (Web-Mobile-Projeto-Borboleta)](https://github.com/GiovannaFChin/Web-Mobile-Projeto-Borboleta)
+### 🌿 [Hopen CBD](https://github.com/GiovannaFChin/Web-Mobile-Projeto-Borboleta)
 Site que reúne informação sobre óleo de CBD e um catálogo de produtos, com navegação simples e acessível. Está sendo migrado para **Next.js**, e tem login, modo escuro, rotas dinâmicas para os produtos e uma barra de imagens que consome a API da Unsplash.  
 **O que pratiquei:** componentes reutilizáveis, consumo de API externa, estilização com CSS Modules e migração de um projeto para Next.js.  
 `Next.js` `React` `JavaScript` `CSS Modules`
