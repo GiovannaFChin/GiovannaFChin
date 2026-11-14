@@ -10,7 +10,7 @@
   <a href="mailto:giovannafchin@gmail.com">E-mail</a>
 </p>
 
-> 🇺🇸 **In short:** Information Systems student who loves Java and Spring Boot, with a growing interest in Data, Cloud and AI. This is where I share the projects I build while I learn.
+> 🇺🇸 **In short:** Information Systems student who loves Java and Spring Boot, with a growing interest in Data, Cloud, AI and game development. This is where I share the projects I build while I learn.
 
 ---
 
@@ -18,28 +18,29 @@
 
 Estou no caminho de me tornar desenvolvedora e **Java é a linguagem em que mais me sinto em casa**: foi com ela que aprendi orientação a objetos, estruturas de dados e, depois, a construir APIs com **Spring Boot**.
 
-Hoje divido meu tempo entre a faculdade, meu estágio na Vivo (onde trabalho com análise de dados e soluções de IA) e projetos próprios. Neste perfil você encontra o que eu venho estudando e praticando: back-end com Java, integração com **AWS**, containers com **Docker** e um pouco de front-end com **React e Next.js**.
+Hoje divido meu tempo entre a faculdade, meu estágio na Vivo (onde trabalho com análise de dados e soluções de IA) e projetos próprios. Neste perfil você encontra o que eu venho estudando e praticando: back-end com Java, integração com **AWS**, containers com **Docker**, um pouco de front-end com **React e Next.js** e também **jogos digitais**, incluindo um projeto que integra software e hardware com **libGDX e ESP32**.
 
 ## Tecnologias
 
-<img src="https://skillicons.dev/icons?i=java,spring,py,js,react,nextjs,html,css,aws,gcp,docker,git,figma" />
+<img src="https://skillicons.dev/icons?i=java,spring,py,js,react,nextjs,html,css,aws,gcp,docker,git,figma,arduino" />
 
 **Back-end:** Java, Spring Boot, APIs REST, Maven  
 **Front-end:** JavaScript, React, Next.js, HTML/CSS  
 **Dados:** Python, SQL, Pandas, Matplotlib, Power BI  
-**Cloud e DevOps:** AWS (S3, IAM), Google Cloud, Docker, Git
+**Cloud e DevOps:** AWS (S3, IAM), Google Cloud, Docker, Git  
+**Jogos e IoT:** libGDX, ESP32, Arduino IDE, comunicação serial
 
 ## Projetos
+
+### 🎮 [HandGrip Shooter](https://github.com/GiovannaFChin/HandGripShooter)
+Projeto extensionista de jogos digitais: um jogo de tiro 2D em **Java com libGDX** controlado por um **hand grip físico**. Um sensor de pressão **FSR402** capta a força do aperto, um **ESP32** lê o sinal e envia ao computador por comunicação serial USB, e o jogo transforma a intensidade do aperto em disparos de 1, 2 ou 3 projéteis. São três fases (dia, tarde e noite) com dificuldade progressiva. A proposta explora a gamificação como incentivo à movimentação das mãos.  
+**O que pratiquei:** desenvolvimento de jogos 2D, integração entre hardware e software, leitura de sensores, comunicação serial e gamificação.  
+`Java` `libGDX` `ESP32` `Arduino` `Jogos Digitais`
 
 ### ☁️ [QR Code Generator](https://github.com/GiovannaFChin/QrCodeGenerator)
 API REST em **Java 21 e Spring Boot** que recebe um texto, gera o QR Code e guarda a imagem em um bucket do **Amazon S3**, devolvendo o link. Roda em container com **Docker** e as credenciais ficam em variáveis de ambiente, fora do código.  
 **O que pratiquei:** criação de APIs REST, integração com AWS SDK, permissões mínimas no IAM e containerização.  
 `Java` `Spring Boot` `AWS S3` `Docker` `ZXing`
-
-### 🌿 [Hopen CBD](https://github.com/GiovannaFChin/Web-Mobile-Projeto-Borboleta)
-Site que reúne informação sobre óleo de CBD e um catálogo de produtos, com navegação simples e acessível. Está sendo migrado para **Next.js**, e tem login, modo escuro, rotas dinâmicas para os produtos e uma barra de imagens que consome a API da Unsplash.  
-**O que pratiquei:** componentes reutilizáveis, consumo de API externa, estilização com CSS Modules e migração de um projeto para Next.js.  
-`Next.js` `React` `JavaScript` `CSS Modules`
 
 ### 🧪 [Laboratory Management System](https://github.com/GiovannaFChin/LaboratoryManagementSystem)
 Sistema em Java para um laboratório clínico: carrega os exames disponíveis de um arquivo, cadastra pacientes e pedidos, busca por CPF, calcula a data de entrega e gera o relatório do dia.  
@@ -51,9 +52,13 @@ Analisador de textos em Java que guarda as palavras em uma **Árvore Binária de
 **O que pratiquei:** árvores binárias de busca, análise de frequência de palavras e manipulação de arquivos.  
 `Java` `Árvore Binária de Busca` `POO` `Arquivos`
 
+### 🌿 [Hopen CBD](https://github.com/GiovannaFChin/Web-Mobile-Projeto-Borboleta)
+Site que reúne informação sobre óleo de CBD e um catálogo de produtos, com navegação simples e acessível. Está sendo migrado para **Next.js**, e tem login, modo escuro, rotas dinâmicas para os produtos e uma barra de imagens que consome a API da Unsplash.  
+**O que pratiquei:** componentes reutilizáveis, consumo de API externa, estilização com CSS Modules e migração de um projeto para Next.js.  
+`Next.js` `React` `JavaScript` `CSS Modules`
+
 ## O que estou explorando agora
 
 - Construir APIs mais completas com **Spring Boot**
 - **Cloud** com AWS e Google Cloud
 - **Dados e Inteligência Artificial**, com desafios no Kaggle e DataCamp
-
